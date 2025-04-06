@@ -1,0 +1,1 @@
+String formatTime(DateTime dt) => "${dt.hour}:${dt.minute.toString().padLeft(2, '0')}";
